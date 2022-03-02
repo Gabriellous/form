@@ -1,0 +1,35 @@
+.container {
+    margin-left: var(--mb-1-5);
+    margin-right: var(--mb-1-5);
+}
+
+.div__home {
+    background-image: linear-gradient(to right top, #051937, #2d2960, #653081, #a72c95, #eb1298);
+    padding-bottom: 5px;
+    display: flex;
+    align-items: center;
+    place-content: center;
+    text-align: center;
+    height: 100vh;
+}
+
+.header {
+    background-color: var(--body-color);
+    position: fixed;
+    width: 100%;
+}
+
+.nav {
+    height: var(--header-height);
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.nav__name {
+    color: white;
+    font-size: var(--h1-font-size);
+    font-weight: var(--font-semi-bold);
+}
+
+
